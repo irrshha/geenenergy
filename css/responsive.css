@@ -1,0 +1,51 @@
+@media (max-width: 320px) {
+}
+
+@media (max-width: 600px) {
+  .contact-image-2 {
+    display: none;
+  }
+  #home {
+    margin-top: 0;
+  }
+  .banner-style-one .banner-title {
+    font-size: 35px;
+    line-height: normal;
+  }
+  .banner-style-one .tag-line {
+    font-size: 17px;
+  }
+  .banner-style-one .banner-btn {
+    font-size: 16px;
+
+    padding: 10.5px 41px;
+  }
+  .sm-none-hi {
+    display: none;
+  }
+  .contact-wrapper .contact-content {
+    margin-left: 0px;
+    padding: 26px;
+  }
+}
+
+@media (max-width: 760px) {
+}
+
+@media (max-width: 1080px) {
+  .contact-image-2 {
+    display: none;
+  }
+  .sm-none-hi {
+    display: none;
+  }
+}
+.arrow-icon {
+  fill: #333;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .arrow-icon {
+  transform: translateX(10px); /* Move the arrow 10px to the right */
+  fill: #ffcc00; /* Optional: change color on hover */
+}
